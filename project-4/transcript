@@ -1,0 +1,32 @@
+vsim -gui work.fsm_detector_tb
+# vsim -gui work.fsm_detector_tb 
+# Start time: 19:36:22 on Jul 15,2026
+# Loading work.fsm_detector_tb
+# Loading work.fsm_detector
+add wave -position insertpoint  \
+sim:/fsm_detector_tb/clk \
+sim:/fsm_detector_tb/rst \
+sim:/fsm_detector_tb/din \
+sim:/fsm_detector_tb/dout
+run 150ns
+# ====================================================
+#          Starting Mealy FSM Simulation              
+# ====================================================
+# Time =   0ns | State = xx | Input = 0 | Output = 0
+# Time =   5ns | State = 00 | Input = 0 | Output = 0
+# Time =  25ns | State = 00 | Input = 1 | Output = 0
+# Time =  35ns | State = 01 | Input = 0 | Output = 0
+# Time =  45ns | State = 10 | Input = 1 | Output = 1
+# Time =  55ns | State = 01 | Input = 1 | Output = 0
+# Time =  65ns | State = 01 | Input = 0 | Output = 0
+# Time =  75ns | State = 10 | Input = 1 | Output = 1
+# Time =  85ns | State = 01 | Input = 0 | Output = 0
+# Time =  95ns | State = 10 | Input = 0 | Output = 0
+# Time = 105ns | State = 00 | Input = 0 | Output = 0
+# ** Note: $finish    : D:/Avani/verilog-projects/project-4/testbench.v(50)
+#    Time: 115 ns  Iteration: 0  Instance: /fsm_detector_tb
+# 1
+# Break in Module fsm_detector_tb at D:/Avani/verilog-projects/project-4/testbench.v line 50
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Avani/verilog-projects/project-4/wave.do
+# End time: 19:40:56 on Jul 15,2026, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2

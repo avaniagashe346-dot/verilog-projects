@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vfsm_detector
+!s110 1784097041
+!i10b 1
+!s100 gz91CJoTG210ACj9724Ao3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ijik8>@dbREE:@>WZHI>;@3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Avani/verilog-projects/project-4
+w1784096332
+8D:/Avani/verilog-projects/project-4/design.v
+FD:/Avani/verilog-projects/project-4/design.v
+!i122 2
+L0 3 56
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1784097041.000000
+!s107 D:/Avani/verilog-projects/project-4/design.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Avani/verilog-projects/project-4/design.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vfsm_detector_tb
+!s110 1784097042
+!i10b 1
+!s100 >[QTX3FTmX=6VJL6zAUD<1
+R0
+Ie4Bj5M?DNm1CR=EX5_m572
+R1
+R2
+w1784096344
+8D:/Avani/verilog-projects/project-4/testbench.v
+FD:/Avani/verilog-projects/project-4/testbench.v
+!i122 3
+L0 3 60
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Avani/verilog-projects/project-4/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Avani/verilog-projects/project-4/testbench.v|
+!i113 1
+R5
+R6

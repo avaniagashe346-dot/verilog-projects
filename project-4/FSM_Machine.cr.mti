@@ -1,0 +1,15 @@
+D:/Avani/verilog-projects/project-4/testbench.v {1 {vlog -work work -stats=none D:/Avani/verilog-projects/project-4/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_detector_tb
+
+Top level modules:
+	fsm_detector_tb
+
+} {} {}} D:/Avani/verilog-projects/project-4/design.v {1 {vlog -work work -stats=none D:/Avani/verilog-projects/project-4/design.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_detector
+
+Top level modules:
+	fsm_detector
+
+} {} {}}
